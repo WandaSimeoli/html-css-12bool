@@ -4,7 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+.box {
+    background-color: #006CFA;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.nested-box {
+    background-color: #00E165;
+    color: white;
+    border: 1px solid #006CFA;
+    padding: 10px;
+}
+.row-6 {
+    margin-bottom: 20px;
 }

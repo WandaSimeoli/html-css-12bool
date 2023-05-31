@@ -40,9 +40,15 @@
     width: calc((100% / 12) * 12);
 }
 
-/* Col Generica */
+/* Reset Col */
 [class*=".col-"] {
     flex: 0 0 auto;
+}
+/* Col Generica */
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
 }
 
 /* Offset */
